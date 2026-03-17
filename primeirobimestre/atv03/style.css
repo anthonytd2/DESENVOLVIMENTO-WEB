@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f9; 
+}
+
+
+.cartao-artigo {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px; 
+  border: 1px solid #dcdcdc;
+}
+
+
+.cartao-artigo h2 {
+  font-size: 32px; 
+  color: #1a5276; 
+}
+
+
+.cartao-artigo p {
+  color: #333333; 
+}
+
+
+nav a {
+  text-decoration: none; 
+  color: #555555;
+}
+
+nav a:hover {
+  text-decoration: underline; 
+  color: #1a5276; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
