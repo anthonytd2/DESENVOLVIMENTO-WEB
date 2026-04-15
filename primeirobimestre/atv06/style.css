@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+ul {
+  list-style-type: none; /* Tira aquelas "bolinhas" padrão da lista */
+  padding: 0;
+  width: 350px;
+  margin: 20px auto; /* Centraliza a lista na tela */
+}
+
+li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer; /* Muda a setinha do mouse para uma mãozinha indicando que é clicável */
+}
+
+li:hover {
+  background-color: #ffcccc; /* Fica avermelhado ao passar o mouse para indicar que vai apagar */
+}
